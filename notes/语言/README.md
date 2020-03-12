@@ -1,2 +1,2 @@
 # 语言
-测试连接[test](test.md)
+测试连接[test](./test.html)

@@ -49,10 +49,10 @@
         "favicon": {
             "shortcut": "./static/icon/favicon.ico",
             "bookmark": "./static/icon/favicon.ico",
-            "appleTouch": "./source/images/apple-touch-icon.jpg",
+            "appleTouch": "./static/icon/favicon.ico",
             "appleTouchMore": {
-                "120x120": "./source/images/apple-touch-icon.jpg",
-                "180x180": "./source/images/apple-touch-icon.jpg"
+                "120x120": "./static/icon/favicon.ico",
+                "180x180": "./static/icon/favicon.ico"
             }
         },
         "theme-default": {
