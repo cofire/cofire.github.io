@@ -4,6 +4,7 @@
     "description": "select * from learn",
     "language": "zh-hans",
     "gitbook": "3.2.3",
+    "printLog": false,
     "styles": {
         "website": "./static/style/website.css"
     },
@@ -11,42 +12,28 @@
         "readme": "README.md"
     },
     "plugins": [
-        "-sharing",
         "prism",
-        "-highlight",
+        "-sharing",
         "sharing-plus",
         "favicon",
         "code",
         "copy-code-button",
-        "back-to-top-button",
-        "toggle-chapters",
-        "multipart",
+        "-back-to-top-button",
+        "-toggle-chapters",
+        "chapter-fold",
         "favicon-absolute",
-        "pageview-count"
+        "pageview-count",
+        "anchor-navigation-ex"
     ],
     "pluginsConfig": {
-        "github": {
-            "url": "https://github.com/cofire"
-        },
         "anchor-navigation-ex": {
-            "showLevel": false
+            "showLevel": true,
+            "associatedWithSummary": false,
+            "printLog": false
         },
         "sharing": {
-            "facebook": true,
-            "twitter": true,
             "weibo": true,
-            "qq": true,
-            "all": [
-                "douban",
-                "google",
-                "instapaper",
-                "linkedin",
-                "twitter",
-                "messenger",
-                "qzone",
-                "viber",
-                "whatsapp"
-            ]
+            "qq": true
         },
         "favicon-absolute": {
             "favicon": "https://cofire.github.io/book/static/icon/favicon.ico",

@@ -25,19 +25,19 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-multipart/multipart.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
                 
             
                 
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
                 
@@ -731,24 +731,23 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="gitbook-&#x5165;&#x95E8;"><center>gitbook &#x5165;&#x95E8;</center></h1>
-<h1 id="&#x4E00;&#x3001;&#x8FD0;&#x884C;&#x73AF;&#x5883;">&#x4E00;&#x3001;&#x8FD0;&#x884C;&#x73AF;&#x5883;</h1>
-<h2 id="nodejs">nodejs</h2>
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x8FD0;&#x884C;&#x73AF;&#x5883;"><b>1. </b>&#x8FD0;&#x884C;&#x73AF;&#x5883;</a></li><ul><li><span class="title-icon "></span><a href="#nodejs"><b>1.1. </b>nodejs</a></li><li><span class="title-icon "></span><a href="#npm"><b>1.2. </b>npm</a></li><li><span class="title-icon "></span><a href="#gitbook-cli"><b>1.3. </b>gitbook-cli</a></li><li><span class="title-icon "></span><a href="#&#x5F00;&#x53D1;&#x5DE5;&#x5177;"><b>1.4. </b>&#x5F00;&#x53D1;&#x5DE5;&#x5177;</a></li></ul><li><span class="title-icon "></span><a href="#gitbook&#x4F7F;&#x7528;"><b>2. </b>gitbook&#x4F7F;&#x7528;</a></li><ul><li><span class="title-icon "></span><a href="#&#x521D;&#x59CB;&#x5316;"><b>2.1. </b>&#x521D;&#x59CB;&#x5316;</a></li><li><span class="title-icon "></span><a href="#&#x76EE;&#x5F55;&#x7ED3;&#x6784;"><b>2.2. </b>&#x76EE;&#x5F55;&#x7ED3;&#x6784;</a></li><li><span class="title-icon "></span><a href="#&#x9879;&#x76EE;&#x8FD0;&#x884C;"><b>2.3. </b>&#x9879;&#x76EE;&#x8FD0;&#x884C;</a></li><li><span class="title-icon "></span><a href="#&#x9879;&#x76EE;&#x6253;&#x5305;"><b>2.4. </b>&#x9879;&#x76EE;&#x6253;&#x5305;</a></li><li><span class="title-icon "></span><a href="#&#x5176;&#x4ED6;&#x547D;&#x4EE4;"><b>2.5. </b>&#x5176;&#x4ED6;&#x547D;&#x4EE4;</a></li></ul><li><span class="title-icon "></span><a href="#&#x63D2;&#x4EF6;&#x914D;&#x7F6E;"><b>3. </b>&#x63D2;&#x4EF6;&#x914D;&#x7F6E;</a></li><ul><li><span class="title-icon "></span><a href="#bookjson-&#x914D;&#x7F6E;"><b>3.1. </b>book.json &#x914D;&#x7F6E;</a></li><li><span class="title-icon "></span><a href="#&#x5E38;&#x7528;&#x63D2;&#x4EF6;"><b>3.2. </b>&#x5E38;&#x7528;&#x63D2;&#x4EF6;</a></li></ul></ul></div><a href="#&#x8FD0;&#x884C;&#x73AF;&#x5883;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x8FD0;&#x884C;&#x73AF;&#x5883;"><a name="&#x8FD0;&#x884C;&#x73AF;&#x5883;" class="anchor-navigation-ex-anchor" href="#&#x8FD0;&#x884C;&#x73AF;&#x5883;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x8FD0;&#x884C;&#x73AF;&#x5883;</h1>
+<h2 id="nodejs"><a name="nodejs" class="anchor-navigation-ex-anchor" href="#nodejs"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. nodejs</h2>
 <pre class="language-"><code> &#x7248;&#x672C;&#x53F7;&#xFF1A;v8.11.x
 </code></pre><p>&#x200B;    &#x5B89;&#x88C5;&#x6559;&#x7A0B;&#xFF1A;&#x4E0B;&#x8F7D;node&#x5C31;&#x662F;&#xFF0C;&#x94FE;&#x63A5;<a href="https://nodejs.org/en/download/&#xFF0C;&#x4E0B;&#x8F7D;&#x5B8C;&#x4EE5;&#x540E;&#x76F4;&#x63A5;&#x5B89;&#x88C5;&#x5373;&#x53EF;&#x3002;" target="_blank">https://nodejs.org/en/download/&#xFF0C;&#x4E0B;&#x8F7D;&#x5B8C;&#x4EE5;&#x540E;&#x76F4;&#x63A5;&#x5B89;&#x88C5;&#x5373;&#x53EF;&#x3002;</a></p>
 <p>&#x200B;    &#x5B89;&#x88C5;&#x6210;&#x529F;&#x540E;&#xFF0C;&#x70B9;&#x51FB;&#x5F00;&#x59CB;-&#x8FD0;&#x884C;-cmd&#xFF08;win+R&#xFF09;&#xFF0C;&#x6253;&#x5F00;dos&#xFF0C;&#x8F93;&#x5165;&#x201C;node --version&#x201D;&#x68C0;&#x67E5;Node.js&#x7248;&#x672C;&#x3002;&#x5982;&#x679C;&#x663E;&#x793A;&#x201C;&#x4E0D;&#x662F;&#x5185;&#x90E8;&#x6216;&#x5916;&#x90E8;&#x547D;&#x4EE4;&#xFF0C;&#x4E5F;&#x4E0D;&#x662F;&#x53EF;&#x8FD0;&#x884C;&#x7684;&#x7A0B;&#x5E8F;&#x201D;&#xFF0C;&#x5219;&#x9700;&#x8981;&#x624B;&#x52A8;&#x914D;&#x7F6E;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x3002;&#x6253;&#x5F00;&#x7CFB;&#x7EDF;&#x73AF;&#x5883;&#x53D8;&#x91CF;,&#x5728;&#x7CFB;&#x7EDF;&#x7684;path&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x4E2D;&#x914D;&#x7F6E;&#x4E86;node.exe&#x7684;&#x76EE;&#x5F55;&#x8DEF;&#x5F84;&#x3002;</p>
-<h2 id="npm">npm</h2>
+<h2 id="npm"><a name="npm" class="anchor-navigation-ex-anchor" href="#npm"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. npm</h2>
 <pre class="language-"><code> &#x7248;&#x672C;&#x53F7;&#xFF1A;5.6.x
 </code></pre><p>&#x200B;    npm&#x662F;&#x968F;&#x540C;NodeJS&#x4E00;&#x8D77;&#x5B89;&#x88C5;&#x7684;&#x5305;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#x3002;&#x5728;dos&#x7A97;&#x53E3;&#x4F7F;&#x7528;&#x2018;npm -v&#x2019;&#x67E5;&#x770B;npm&#x7684;&#x7248;&#x672C;&#x3002;</p>
-<h2 id="gitbook-cli">gitbook-cli</h2>
+<h2 id="gitbook-cli"><a name="gitbook-cli" class="anchor-navigation-ex-anchor" href="#gitbook-cli"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. gitbook-cli</h2>
 <pre class="language-"><code>npm install -g gitbook-cli
-</code></pre><h2 id="&#x5F00;&#x53D1;&#x5DE5;&#x5177;">&#x5F00;&#x53D1;&#x5DE5;&#x5177;</h2>
+</code></pre><h2 id="&#x5F00;&#x53D1;&#x5DE5;&#x5177;"><a name="&#x5F00;&#x53D1;&#x5DE5;&#x5177;" class="anchor-navigation-ex-anchor" href="#&#x5F00;&#x53D1;&#x5DE5;&#x5177;"><i class="fa fa-link" aria-hidden="true"></i></a>1.4. &#x5F00;&#x53D1;&#x5DE5;&#x5177;</h2>
 <p> GitBook + Typora + Git</p>
-<h1 id="&#x4E8C;&#x3001;gitbook&#x4F7F;&#x7528;">&#x4E8C;&#x3001;gitbook&#x4F7F;&#x7528;</h1>
-<h2 id="&#x521D;&#x59CB;&#x5316;">&#x521D;&#x59CB;&#x5316;</h2>
+<h1 id="gitbook&#x4F7F;&#x7528;"><a name="gitbook&#x4F7F;&#x7528;" class="anchor-navigation-ex-anchor" href="#gitbook&#x4F7F;&#x7528;"><i class="fa fa-link" aria-hidden="true"></i></a>2. gitbook&#x4F7F;&#x7528;</h1>
+<h2 id="&#x521D;&#x59CB;&#x5316;"><a name="&#x521D;&#x59CB;&#x5316;" class="anchor-navigation-ex-anchor" href="#&#x521D;&#x59CB;&#x5316;"><i class="fa fa-link" aria-hidden="true"></i></a>2.1. &#x521D;&#x59CB;&#x5316;</h2>
 <pre class="language-"><code class="lang-bash">gitbook init  ---- &#x9879;&#x76EE;&#x521D;&#x59CB;&#x5316;
 </code></pre>
-<h2 id="&#x76EE;&#x5F55;&#x7ED3;&#x6784;">&#x76EE;&#x5F55;&#x7ED3;&#x6784;</h2>
+<h2 id="&#x76EE;&#x5F55;&#x7ED3;&#x6784;"><a name="&#x76EE;&#x5F55;&#x7ED3;&#x6784;" class="anchor-navigation-ex-anchor" href="#&#x76EE;&#x5F55;&#x7ED3;&#x6784;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2. &#x76EE;&#x5F55;&#x7ED3;&#x6784;</h2>
 <pre class="language-"><code>README.md &#x2014;&#x2014; &#x4E66;&#x7C4D;&#x7684;&#x4ECB;&#x7ECD;&#x5199;&#x5728;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#x91CC;
 SUMMARY.md &#x2014;&#x2014; &#x4E66;&#x7C4D;&#x7684;&#x76EE;&#x5F55;&#x7ED3;&#x6784;&#x5728;&#x8FD9;&#x91CC;&#x914D;&#x7F6E;
 </code></pre><p>&#x4E66;&#x7C4D;&#x7684;&#x76EE;&#x5F55;&#x7ED3;&#x6784;&#x5982;&#x4E0B;&#xFF1A;</p>
@@ -764,20 +763,20 @@ SUMMARY.md &#x2014;&#x2014; &#x4E66;&#x7C4D;&#x7684;&#x76EE;&#x5F55;&#x7ED3;&#x6
 <span class="token list punctuation">*</span> <span class="token url">[<span class="token content">&#x7B2C;&#x4E09;&#x7AE0;</span>](Chapter3/README.md)</span>
 <span class="token list punctuation">*</span> <span class="token url">[<span class="token content">&#x7B2C;&#x56DB;&#x7AE0;</span>](Chapter4/README.md)</span>
 </code></pre>
-<h2 id="&#x9879;&#x76EE;&#x8FD0;&#x884C;">&#x9879;&#x76EE;&#x8FD0;&#x884C;</h2>
+<h2 id="&#x9879;&#x76EE;&#x8FD0;&#x884C;"><a name="&#x9879;&#x76EE;&#x8FD0;&#x884C;" class="anchor-navigation-ex-anchor" href="#&#x9879;&#x76EE;&#x8FD0;&#x884C;"><i class="fa fa-link" aria-hidden="true"></i></a>2.3. &#x9879;&#x76EE;&#x8FD0;&#x884C;</h2>
 <pre class="language-"><code class="lang-bash">//&#x9ED8;&#x8BA4;4000&#x7AEF;&#x53E3;
 gitbook serve
 gitbook serve --port <span class="token number">2333</span>
 gitbook serve --open
 </code></pre>
-<h2 id="&#x9879;&#x76EE;&#x6253;&#x5305;">&#x9879;&#x76EE;&#x6253;&#x5305;</h2>
+<h2 id="&#x9879;&#x76EE;&#x6253;&#x5305;"><a name="&#x9879;&#x76EE;&#x6253;&#x5305;" class="anchor-navigation-ex-anchor" href="#&#x9879;&#x76EE;&#x6253;&#x5305;"><i class="fa fa-link" aria-hidden="true"></i></a>2.4. &#x9879;&#x76EE;&#x6253;&#x5305;</h2>
 <pre class="language-"><code class="lang-bash">gitbook build <span class="token punctuation">[</span>&#x4E66;&#x7C4D;&#x8DEF;&#x5F84;<span class="token punctuation">]</span> <span class="token punctuation">[</span>&#x8F93;&#x51FA;&#x8DEF;&#x5F84;<span class="token punctuation">]</span>
 gitbook build --log<span class="token operator">=</span>debug
 gitbook pdf ./ ./mybook.pdf
 gitbook epub ./ ./mybook.epub
 gitbook mobi ./ ./mybook.mobi
 </code></pre>
-<h2 id="&#x5176;&#x4ED6;&#x547D;&#x4EE4;">&#x5176;&#x4ED6;&#x547D;&#x4EE4;</h2>
+<h2 id="&#x5176;&#x4ED6;&#x547D;&#x4EE4;"><a name="&#x5176;&#x4ED6;&#x547D;&#x4EE4;" class="anchor-navigation-ex-anchor" href="#&#x5176;&#x4ED6;&#x547D;&#x4EE4;"><i class="fa fa-link" aria-hidden="true"></i></a>2.5. &#x5176;&#x4ED6;&#x547D;&#x4EE4;</h2>
 <pre class="language-"><code class="lang-bash">//&#x8F93;&#x51FA;gitbook&#x7684;&#x5E2E;&#x52A9;&#x4FE1;&#x606F;
 gitbook --help
 //&#x751F;&#x6210;&#x9759;&#x6001;&#x7F51;&#x9875;&#x5E76;&#x8FD0;&#x884C;&#x670D;&#x52A1;&#x5668;
@@ -801,8 +800,8 @@ gitbook build --log<span class="token operator">=</span>debug
 //&#x8F93;&#x51FA;&#x9519;&#x8BEF;&#x4FE1;&#x606F;
 gitbook builid --debug
 </code></pre>
-<h1 id="&#x4E09;&#x3001;&#x63D2;&#x4EF6;&#x914D;&#x7F6E;">&#x4E09;&#x3001;&#x63D2;&#x4EF6;&#x914D;&#x7F6E;</h1>
-<h2 id="bookjson-&#x914D;&#x7F6E;">book.json &#x914D;&#x7F6E;</h2>
+<h1 id="&#x63D2;&#x4EF6;&#x914D;&#x7F6E;"><a name="&#x63D2;&#x4EF6;&#x914D;&#x7F6E;" class="anchor-navigation-ex-anchor" href="#&#x63D2;&#x4EF6;&#x914D;&#x7F6E;"><i class="fa fa-link" aria-hidden="true"></i></a>3. &#x63D2;&#x4EF6;&#x914D;&#x7F6E;</h1>
+<h2 id="bookjson-&#x914D;&#x7F6E;"><a name="bookjson-&#x914D;&#x7F6E;" class="anchor-navigation-ex-anchor" href="#bookjson-&#x914D;&#x7F6E;"><i class="fa fa-link" aria-hidden="true"></i></a>3.1. book.json &#x914D;&#x7F6E;</h2>
 <p>book.json&#x6587;&#x4EF6;&#x662F;gitbook&#x9879;&#x76EE;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x3002;</p>
 <p>book.json&#x5E38;&#x7528;&#x914D;&#x7F6E;&#x5982;&#x4E0B;&#xFF1A;</p>
 <pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
@@ -865,11 +864,11 @@ gitbook builid --debug
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre>
-<h2 id="&#x5E38;&#x7528;&#x63D2;&#x4EF6;">&#x5E38;&#x7528;&#x63D2;&#x4EF6;</h2>
+<h2 id="&#x5E38;&#x7528;&#x63D2;&#x4EF6;"><a name="&#x5E38;&#x7528;&#x63D2;&#x4EF6;" class="anchor-navigation-ex-anchor" href="#&#x5E38;&#x7528;&#x63D2;&#x4EF6;"><i class="fa fa-link" aria-hidden="true"></i></a>3.2. &#x5E38;&#x7528;&#x63D2;&#x4EF6;</h2>
 <ul>
-<li><h4 id="back-to-top-button&#xFF08;&#x8FD4;&#x56DE;&#x9876;&#x90E8;&#xFF09;">back-to-top-button&#xFF08;&#x8FD4;&#x56DE;&#x9876;&#x90E8;&#xFF09;</h4>
+<li><h4 id="back-to-top-button&#xFF08;&#x8FD4;&#x56DE;&#x9876;&#x90E8;&#xFF09;"><a name="back-to-top-button&#xFF08;&#x8FD4;&#x56DE;&#x9876;&#x90E8;&#xFF09;" class="anchor-navigation-ex-anchor" href="#back-to-top-button&#xFF08;&#x8FD4;&#x56DE;&#x9876;&#x90E8;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>back-to-top-button&#xFF08;&#x8FD4;&#x56DE;&#x9876;&#x90E8;&#xFF09;</h4>
 </li>
-<li><h4 id="code&#xFF08;&#x4EE3;&#x7801;&#x6DFB;&#x52A0;&#x884C;&#x53F7;&#x590D;&#x5236;&#x6309;&#x94AE;&#xFF09;">code&#xFF08;&#x4EE3;&#x7801;&#x6DFB;&#x52A0;&#x884C;&#x53F7;&amp;&#x590D;&#x5236;&#x6309;&#x94AE;&#xFF09;</h4>
+<li><h4 id="code&#xFF08;&#x4EE3;&#x7801;&#x6DFB;&#x52A0;&#x884C;&#x53F7;&#x590D;&#x5236;&#x6309;&#x94AE;&#xFF09;"><a name="code&#xFF08;&#x4EE3;&#x7801;&#x6DFB;&#x52A0;&#x884C;&#x53F7;&#x590D;&#x5236;&#x6309;&#x94AE;&#xFF09;" class="anchor-navigation-ex-anchor" href="#code&#xFF08;&#x4EE3;&#x7801;&#x6DFB;&#x52A0;&#x884C;&#x53F7;&#x590D;&#x5236;&#x6309;&#x94AE;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>code&#xFF08;&#x4EE3;&#x7801;&#x6DFB;&#x52A0;&#x884C;&#x53F7;&amp;&#x590D;&#x5236;&#x6309;&#x94AE;&#xFF09;</h4>
 </li>
 </ul>
 <pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
@@ -881,9 +880,9 @@ gitbook builid --debug
 <span class="token punctuation">}</span>
 </code></pre>
 <ul>
-<li><h4 id="search-pro&#xFF08;&#x9AD8;&#x7EA7;&#x641C;&#x7D22;&#xFF0C;&#x652F;&#x6301;&#x4E2D;&#x6587;&#xFF09;">search-pro&#xFF08;&#x9AD8;&#x7EA7;&#x641C;&#x7D22;&#xFF0C;&#x652F;&#x6301;&#x4E2D;&#x6587;&#xFF09;</h4>
+<li><h4 id="search-pro&#xFF08;&#x9AD8;&#x7EA7;&#x641C;&#x7D22;&#xFF0C;&#x652F;&#x6301;&#x4E2D;&#x6587;&#xFF09;"><a name="search-pro&#xFF08;&#x9AD8;&#x7EA7;&#x641C;&#x7D22;&#xFF0C;&#x652F;&#x6301;&#x4E2D;&#x6587;&#xFF09;" class="anchor-navigation-ex-anchor" href="#search-pro&#xFF08;&#x9AD8;&#x7EA7;&#x641C;&#x7D22;&#xFF0C;&#x652F;&#x6301;&#x4E2D;&#x6587;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>search-pro&#xFF08;&#x9AD8;&#x7EA7;&#x641C;&#x7D22;&#xFF0C;&#x652F;&#x6301;&#x4E2D;&#x6587;&#xFF09;</h4>
 </li>
-<li><h4 id="github&#xFF08;&#x5728;&#x53F3;&#x4E0A;&#x89D2;&#x6DFB;&#x52A0;github&#x56FE;&#x6807;&#xFF09;">github&#xFF08;&#x5728;&#x53F3;&#x4E0A;&#x89D2;&#x6DFB;&#x52A0;github&#x56FE;&#x6807;&#xFF09;</h4>
+<li><h4 id="github&#xFF08;&#x5728;&#x53F3;&#x4E0A;&#x89D2;&#x6DFB;&#x52A0;github&#x56FE;&#x6807;&#xFF09;"><a name="github&#xFF08;&#x5728;&#x53F3;&#x4E0A;&#x89D2;&#x6DFB;&#x52A0;github&#x56FE;&#x6807;&#xFF09;" class="anchor-navigation-ex-anchor" href="#github&#xFF08;&#x5728;&#x53F3;&#x4E0A;&#x89D2;&#x6DFB;&#x52A0;github&#x56FE;&#x6807;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>github&#xFF08;&#x5728;&#x53F3;&#x4E0A;&#x89D2;&#x6DFB;&#x52A0;github&#x56FE;&#x6807;&#xFF09;</h4>
 </li>
 </ul>
 <pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
@@ -895,9 +894,9 @@ gitbook builid --debug
 <span class="token punctuation">}</span>
 </code></pre>
 <ul>
-<li><h4 id="splitter&#xFF08;&#x4FA7;&#x8FB9;&#x680F;&#x5BBD;&#x5EA6;&#x53EF;&#x8C03;&#x8282;&#xFF09;">splitter&#xFF08;&#x4FA7;&#x8FB9;&#x680F;&#x5BBD;&#x5EA6;&#x53EF;&#x8C03;&#x8282;&#xFF09;</h4>
+<li><h4 id="splitter&#xFF08;&#x4FA7;&#x8FB9;&#x680F;&#x5BBD;&#x5EA6;&#x53EF;&#x8C03;&#x8282;&#xFF09;"><a name="splitter&#xFF08;&#x4FA7;&#x8FB9;&#x680F;&#x5BBD;&#x5EA6;&#x53EF;&#x8C03;&#x8282;&#xFF09;" class="anchor-navigation-ex-anchor" href="#splitter&#xFF08;&#x4FA7;&#x8FB9;&#x680F;&#x5BBD;&#x5EA6;&#x53EF;&#x8C03;&#x8282;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>splitter&#xFF08;&#x4FA7;&#x8FB9;&#x680F;&#x5BBD;&#x5EA6;&#x53EF;&#x8C03;&#x8282;&#xFF09;</h4>
 </li>
-<li><h4 id="tbfed-pagefooter&#xFF08;&#x9875;&#x9762;&#x6DFB;&#x52A0;&#x9875;&#x811A;&#xFF0C;&#x7B80;&#x5355;&#x7684;&#xFF09;">tbfed-pagefooter&#xFF08;&#x9875;&#x9762;&#x6DFB;&#x52A0;&#x9875;&#x811A;&#xFF0C;&#x7B80;&#x5355;&#x7684;&#xFF09;</h4>
+<li><h4 id="tbfed-pagefooter&#xFF08;&#x9875;&#x9762;&#x6DFB;&#x52A0;&#x9875;&#x811A;&#xFF0C;&#x7B80;&#x5355;&#x7684;&#xFF09;"><a name="tbfed-pagefooter&#xFF08;&#x9875;&#x9762;&#x6DFB;&#x52A0;&#x9875;&#x811A;&#xFF0C;&#x7B80;&#x5355;&#x7684;&#xFF09;" class="anchor-navigation-ex-anchor" href="#tbfed-pagefooter&#xFF08;&#x9875;&#x9762;&#x6DFB;&#x52A0;&#x9875;&#x811A;&#xFF0C;&#x7B80;&#x5355;&#x7684;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>tbfed-pagefooter&#xFF08;&#x9875;&#x9762;&#x6DFB;&#x52A0;&#x9875;&#x811A;&#xFF0C;&#x7B80;&#x5355;&#x7684;&#xFF09;</h4>
 </li>
 </ul>
 <pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
@@ -911,7 +910,7 @@ gitbook builid --debug
 <span class="token punctuation">}</span>
 </code></pre>
 <ul>
-<li><h4 id="page-copyright&#xFF08;&#x9875;&#x9762;&#x9875;&#x811A;&#x7248;&#x6743;&#xFF0C;&#x590D;&#x6742;&#x7684;&#xFF09;">page-copyright&#xFF08;&#x9875;&#x9762;&#x9875;&#x811A;&#x7248;&#x6743;&#xFF0C;&#x590D;&#x6742;&#x7684;&#xFF09;</h4>
+<li><h4 id="page-copyright&#xFF08;&#x9875;&#x9762;&#x9875;&#x811A;&#x7248;&#x6743;&#xFF0C;&#x590D;&#x6742;&#x7684;&#xFF09;"><a name="page-copyright&#xFF08;&#x9875;&#x9762;&#x9875;&#x811A;&#x7248;&#x6743;&#xFF0C;&#x590D;&#x6742;&#x7684;&#xFF09;" class="anchor-navigation-ex-anchor" href="#page-copyright&#xFF08;&#x9875;&#x9762;&#x9875;&#x811A;&#x7248;&#x6743;&#xFF0C;&#x590D;&#x6742;&#x7684;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>page-copyright&#xFF08;&#x9875;&#x9762;&#x9875;&#x811A;&#x7248;&#x6743;&#xFF0C;&#x590D;&#x6742;&#x7684;&#xFF09;</h4>
 </li>
 </ul>
 <pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
@@ -932,7 +931,7 @@ gitbook builid --debug
 <span class="token punctuation">}</span>
 </code></pre>
 <ul>
-<li><h4 id="donate&#xFF08;&#x6253;&#x8D4F;&#x63D2;&#x4EF6;&#xFF09;">donate&#xFF08;&#x6253;&#x8D4F;&#x63D2;&#x4EF6;&#xFF09;</h4>
+<li><h4 id="donate&#xFF08;&#x6253;&#x8D4F;&#x63D2;&#x4EF6;&#xFF09;"><a name="donate&#xFF08;&#x6253;&#x8D4F;&#x63D2;&#x4EF6;&#xFF09;" class="anchor-navigation-ex-anchor" href="#donate&#xFF08;&#x6253;&#x8D4F;&#x63D2;&#x4EF6;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>donate&#xFF08;&#x6253;&#x8D4F;&#x63D2;&#x4EF6;&#xFF09;</h4>
 </li>
 </ul>
 <pre class="language-"><code>{
@@ -948,7 +947,7 @@ gitbook builid --debug
     }
 }
 </code></pre><ul>
-<li><h4 id="sharing-plus&#xFF08;&#x5206;&#x4EAB;&#x5F53;&#x524D;&#x9875;&#x9762;&#xFF09;">sharing-plus&#xFF08;&#x5206;&#x4EAB;&#x5F53;&#x524D;&#x9875;&#x9762;&#xFF09;</h4>
+<li><h4 id="sharing-plus&#xFF08;&#x5206;&#x4EAB;&#x5F53;&#x524D;&#x9875;&#x9762;&#xFF09;"><a name="sharing-plus&#xFF08;&#x5206;&#x4EAB;&#x5F53;&#x524D;&#x9875;&#x9762;&#xFF09;" class="anchor-navigation-ex-anchor" href="#sharing-plus&#xFF08;&#x5206;&#x4EAB;&#x5F53;&#x524D;&#x9875;&#x9762;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>sharing-plus&#xFF08;&#x5206;&#x4EAB;&#x5F53;&#x524D;&#x9875;&#x9762;&#xFF09;</h4>
 </li>
 </ul>
 <pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
@@ -967,7 +966,7 @@ gitbook builid --debug
 <span class="token punctuation">}</span>
 </code></pre>
 <ul>
-<li><h4 id="custom-favicon&#xFF08;&#x4FEE;&#x6539;&#x6807;&#x9898;&#x680F;&#x56FE;&#x6807;&#xFF09;">custom-favicon&#xFF08;&#x4FEE;&#x6539;&#x6807;&#x9898;&#x680F;&#x56FE;&#x6807;&#xFF09;</h4>
+<li><h4 id="custom-favicon&#xFF08;&#x4FEE;&#x6539;&#x6807;&#x9898;&#x680F;&#x56FE;&#x6807;&#xFF09;"><a name="custom-favicon&#xFF08;&#x4FEE;&#x6539;&#x6807;&#x9898;&#x680F;&#x56FE;&#x6807;&#xFF09;" class="anchor-navigation-ex-anchor" href="#custom-favicon&#xFF08;&#x4FEE;&#x6539;&#x6807;&#x9898;&#x680F;&#x56FE;&#x6807;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>custom-favicon&#xFF08;&#x4FEE;&#x6539;&#x6807;&#x9898;&#x680F;&#x56FE;&#x6807;&#xFF09;</h4>
 </li>
 </ul>
 <pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
@@ -977,7 +976,7 @@ gitbook builid --debug
 <span class="token punctuation">}</span>
 </code></pre>
 <ul>
-<li><h4 id="prism&#xFF08;&#x4EE3;&#x7801;&#x9AD8;&#x4EAE;&#xFF09;">prism&#xFF08;&#x4EE3;&#x7801;&#x9AD8;&#x4EAE;&#xFF09;</h4>
+<li><h4 id="prism&#xFF08;&#x4EE3;&#x7801;&#x9AD8;&#x4EAE;&#xFF09;"><a name="prism&#xFF08;&#x4EE3;&#x7801;&#x9AD8;&#x4EAE;&#xFF09;" class="anchor-navigation-ex-anchor" href="#prism&#xFF08;&#x4EE3;&#x7801;&#x9AD8;&#x4EAE;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>prism&#xFF08;&#x4EE3;&#x7801;&#x9AD8;&#x4EAE;&#xFF09;</h4>
 </li>
 </ul>
 <pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
@@ -995,13 +994,13 @@ gitbook builid --debug
 <span class="token punctuation">}</span>
 </code></pre>
 <ul>
-<li><h4 id="todo&#xFF08;&#x590D;&#x9009;&#x6846;&#xFF09;">todo&#xFF08;&#x590D;&#x9009;&#x6846;&#xFF09;</h4>
+<li><h4 id="todo&#xFF08;&#x590D;&#x9009;&#x6846;&#xFF09;"><a name="todo&#xFF08;&#x590D;&#x9009;&#x6846;&#xFF09;" class="anchor-navigation-ex-anchor" href="#todo&#xFF08;&#x590D;&#x9009;&#x6846;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>todo&#xFF08;&#x590D;&#x9009;&#x6846;&#xFF09;</h4>
 </li>
 </ul>
 <pre class="language-"><code>* [ ] &#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x672A;&#x9009;&#x4E2D;&#x7684;
 * [x] &#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x5DF2;&#x9009;&#x4E2D;&#x7684;
 </code></pre><ul>
-<li><h4 id="pageview-count&#xFF08;&#x9605;&#x8BFB;&#x91CF;&#x8BA1;&#x6570;&#xFF09;">pageview-count&#xFF08;&#x9605;&#x8BFB;&#x91CF;&#x8BA1;&#x6570;&#xFF09;</h4>
+<li><h4 id="pageview-count&#xFF08;&#x9605;&#x8BFB;&#x91CF;&#x8BA1;&#x6570;&#xFF09;"><a name="pageview-count&#xFF08;&#x9605;&#x8BFB;&#x91CF;&#x8BA1;&#x6570;&#xFF09;" class="anchor-navigation-ex-anchor" href="#pageview-count&#xFF08;&#x9605;&#x8BFB;&#x91CF;&#x8BA1;&#x6570;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>pageview-count&#xFF08;&#x9605;&#x8BFB;&#x91CF;&#x8BA1;&#x6570;&#xFF09;</h4>
 </li>
 </ul>
 <pre class="language-"><code class="lang-javascript"><span class="token comment">// &#x672A;&#x8C03;&#x6574;&#x524D;</span>
@@ -1010,9 +1009,9 @@ gitbook builid --debug
 <span class="token keyword">var</span> fontSize <span class="token operator">=</span> bookHeader<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">&apos;.font-settings&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
 <ul>
-<li><h4 id="auto-scroll-table&#xFF08;&#x8868;&#x683C;&#x6EDA;&#x52A8;&#x6761;&#xFF09;">auto-scroll-table&#xFF08;&#x8868;&#x683C;&#x6EDA;&#x52A8;&#x6761;&#xFF09;</h4>
+<li><h4 id="auto-scroll-table&#xFF08;&#x8868;&#x683C;&#x6EDA;&#x52A8;&#x6761;&#xFF09;"><a name="auto-scroll-table&#xFF08;&#x8868;&#x683C;&#x6EDA;&#x52A8;&#x6761;&#xFF09;" class="anchor-navigation-ex-anchor" href="#auto-scroll-table&#xFF08;&#x8868;&#x683C;&#x6EDA;&#x52A8;&#x6761;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>auto-scroll-table&#xFF08;&#x8868;&#x683C;&#x6EDA;&#x52A8;&#x6761;&#xFF09;</h4>
 </li>
-<li><h4 id="image-captions&#xFF08;&#x663E;&#x793A;&#x56FE;&#x7247;&#x540D;&#x79F0;&#xFF09;">image-captions&#xFF08;&#x663E;&#x793A;&#x56FE;&#x7247;&#x540D;&#x79F0;&#xFF09;</h4>
+<li><h4 id="image-captions&#xFF08;&#x663E;&#x793A;&#x56FE;&#x7247;&#x540D;&#x79F0;&#xFF09;"><a name="image-captions&#xFF08;&#x663E;&#x793A;&#x56FE;&#x7247;&#x540D;&#x79F0;&#xFF09;" class="anchor-navigation-ex-anchor" href="#image-captions&#xFF08;&#x663E;&#x793A;&#x56FE;&#x7247;&#x540D;&#x79F0;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>image-captions&#xFF08;&#x663E;&#x793A;&#x56FE;&#x7247;&#x540D;&#x79F0;&#xFF09;</h4>
 </li>
 </ul>
 <pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
@@ -1024,7 +1023,7 @@ gitbook builid --debug
 <span class="token punctuation">}</span>
 </code></pre>
 <ul>
-<li><h4 id="styles-sass&#xFF08;&#x4F7F;&#x7528;sass&#x66FF;&#x6362;css&#xFF09;">styles-sass&#xFF08;&#x4F7F;&#x7528;sass&#x66FF;&#x6362;css&#xFF09;</h4>
+<li><h4 id="styles-sass&#xFF08;&#x4F7F;&#x7528;sass&#x66FF;&#x6362;css&#xFF09;"><a name="styles-sass&#xFF08;&#x4F7F;&#x7528;sass&#x66FF;&#x6362;css&#xFF09;" class="anchor-navigation-ex-anchor" href="#styles-sass&#xFF08;&#x4F7F;&#x7528;sass&#x66FF;&#x6362;css&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>styles-sass&#xFF08;&#x4F7F;&#x7528;sass&#x66FF;&#x6362;css&#xFF09;</h4>
 </li>
 </ul>
 <pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
@@ -1035,7 +1034,7 @@ gitbook builid --debug
 <span class="token punctuation">}</span>
 </code></pre>
 <ul>
-<li><h4 id="styles-less&#xFF08;&#x4F7F;&#x7528;less&#x66FF;&#x6362;css&#xFF09;">styles-less&#xFF08;&#x4F7F;&#x7528;less&#x66FF;&#x6362;css&#xFF09;</h4>
+<li><h4 id="styles-less&#xFF08;&#x4F7F;&#x7528;less&#x66FF;&#x6362;css&#xFF09;"><a name="styles-less&#xFF08;&#x4F7F;&#x7528;less&#x66FF;&#x6362;css&#xFF09;" class="anchor-navigation-ex-anchor" href="#styles-less&#xFF08;&#x4F7F;&#x7528;less&#x66FF;&#x6362;css&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>styles-less&#xFF08;&#x4F7F;&#x7528;less&#x66FF;&#x6362;css&#xFF09;</h4>
 </li>
 </ul>
 <pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
@@ -1046,9 +1045,9 @@ gitbook builid --debug
 <span class="token punctuation">}</span>
 </code></pre>
 <ul>
-<li><h4 id="toggle-chapters&#xFF08;&#x76EE;&#x5F55;&#x6298;&#x53E0;&#xFF09;">toggle-chapters&#xFF08;&#x76EE;&#x5F55;&#x6298;&#x53E0;&#xFF09;</h4>
+<li><h4 id="toggle-chapters&#xFF08;&#x76EE;&#x5F55;&#x6298;&#x53E0;&#xFF09;"><a name="toggle-chapters&#xFF08;&#x76EE;&#x5F55;&#x6298;&#x53E0;&#xFF09;" class="anchor-navigation-ex-anchor" href="#toggle-chapters&#xFF08;&#x76EE;&#x5F55;&#x6298;&#x53E0;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>toggle-chapters&#xFF08;&#x76EE;&#x5F55;&#x6298;&#x53E0;&#xFF09;</h4>
 </li>
-<li><h4 id="multipart&#xFF08;&#x5206;&#x7AE0;&#x8282;&#x5C55;&#x793A;&#xFF09;">multipart&#xFF08;&#x5206;&#x7AE0;&#x8282;&#x5C55;&#x793A;&#xFF09;</h4>
+<li><h4 id="multipart&#xFF08;&#x5206;&#x7AE0;&#x8282;&#x5C55;&#x793A;&#xFF09;"><a name="multipart&#xFF08;&#x5206;&#x7AE0;&#x8282;&#x5C55;&#x793A;&#xFF09;" class="anchor-navigation-ex-anchor" href="#multipart&#xFF08;&#x5206;&#x7AE0;&#x8282;&#x5C55;&#x793A;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>multipart&#xFF08;&#x5206;&#x7AE0;&#x8282;&#x5C55;&#x793A;&#xFF09;</h4>
 </li>
 </ul>
 <pre class="language-"><code class="lang-markdown"><span class="token title important"><span class="token punctuation">#</span> GitBook</span>
@@ -1073,7 +1072,7 @@ gitbook builid --debug
 <span class="token punctuation">}</span>
 </code></pre>
 <ul>
-<li><h4 id="favicon-absolute-&#xFF08;&#x8BBE;&#x7F6E;&#x7F51;&#x7AD9;&#x56FE;&#x6807;&#xFF09;">favicon-absolute &#xFF08;&#x8BBE;&#x7F6E;&#x7F51;&#x7AD9;&#x56FE;&#x6807;&#xFF09;</h4>
+<li><h4 id="favicon-absolute-&#xFF08;&#x8BBE;&#x7F6E;&#x7F51;&#x7AD9;&#x56FE;&#x6807;&#xFF09;"><a name="favicon-absolute-&#xFF08;&#x8BBE;&#x7F6E;&#x7F51;&#x7AD9;&#x56FE;&#x6807;&#xFF09;" class="anchor-navigation-ex-anchor" href="#favicon-absolute-&#xFF08;&#x8BBE;&#x7F6E;&#x7F51;&#x7AD9;&#x56FE;&#x6807;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>favicon-absolute &#xFF08;&#x8BBE;&#x7F6E;&#x7F51;&#x7AD9;&#x56FE;&#x6807;&#xFF09;</h4>
 </li>
 </ul>
 <pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
@@ -1111,6 +1110,27 @@ gitbook builid --debug
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre>
+<ul>
+<li><h4 id="hide-element&#xFF08;&#x9690;&#x85CF;&#x5143;&#x7D20;&#xFF09;"><a name="hide-element&#xFF08;&#x9690;&#x85CF;&#x5143;&#x7D20;&#xFF09;" class="anchor-navigation-ex-anchor" href="#hide-element&#xFF08;&#x9690;&#x85CF;&#x5143;&#x7D20;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>hide-element&#xFF08;&#x9690;&#x85CF;&#x5143;&#x7D20;&#xFF09;</h4>
+</li>
+</ul>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+    <span class="token property">&quot;plugins&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">&quot;hide-element&quot;</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;pluginsConfig&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;hide-element&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">&quot;elements&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;.gitbook-link&quot;</span><span class="token punctuation">]</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<ul>
+<li><h4 id="chapter-fold&#xFF08;&#x5BFC;&#x822A;&#x76EE;&#x5F55;&#x6298;&#x53E0;&#xFF09;"><a name="chapter-fold&#xFF08;&#x5BFC;&#x822A;&#x76EE;&#x5F55;&#x6298;&#x53E0;&#xFF09;" class="anchor-navigation-ex-anchor" href="#chapter-fold&#xFF08;&#x5BFC;&#x822A;&#x76EE;&#x5F55;&#x6298;&#x53E0;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>chapter-fold&#xFF08;&#x5BFC;&#x822A;&#x76EE;&#x5F55;&#x6298;&#x53E0;&#xFF09;</h4>
+</li>
+<li><h4 id="popup-&#xFF08;&#x5F39;&#x51FA;&#x5927;&#x56FE;&#xFF09;"><a name="popup-&#xFF08;&#x5F39;&#x51FA;&#x5927;&#x56FE;&#xFF09;" class="anchor-navigation-ex-anchor" href="#popup-&#xFF08;&#x5F39;&#x51FA;&#x5927;&#x56FE;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>popup &#xFF08;&#x5F39;&#x51FA;&#x5927;&#x56FE;&#xFF09;</h4>
+</li>
+</ul>
 
                                 
                                 </section>
@@ -1154,7 +1174,7 @@ gitbook builid --debug
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"gitbook","level":"1.6.2","depth":2,"next":{"title":"服务器","level":"1.7","depth":1,"path":"服务器/README.md","ref":"./服务器/README.md","articles":[{"title":"Linux","level":"1.7.1","depth":2,"path":"服务器/Linux.md","ref":"./服务器/Linux.md","articles":[]},{"title":"Windows","level":"1.7.2","depth":2,"path":"服务器/Windows.md","ref":"./服务器/Windows.md","articles":[]}]},"previous":{"title":"Markdown","level":"1.6.1","depth":2,"path":"开发工具/Markdown.md","ref":"./开发工具/Markdown.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","prism","-highlight","sharing-plus","favicon","code","copy-code-button","back-to-top-button","toggle-chapters","multipart","favicon-absolute","pageview-count"],"styles":{"website":"./static/style/website.css"},"pluginsConfig":{"prism":{},"github":{"url":"https://github.com/cofire"},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"multipart":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"favicon-absolute":{"appleTouchIconMore":{},"appleTouchIconPrecomposed152":"https://cofire.github.io/book/static/icon/favicon.ico","appleTouchIconPrecomposedMore":{},"favicon":"https://cofire.github.io/book/static/icon/favicon.ico","bookmark":"https://cofire.github.io/book/static/icon/favicon.ico"},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"favicon":{},"back-to-top-button":{},"pageview-count":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"weibo":true,"qq":true,"all":["douban","google","instapaper","linkedin","twitter","messenger","qzone","viber","whatsapp"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"toggle-chapters":{}},"theme":"default","author":"cofire","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"私人笔记","language":"zh-hans","gitbook":"3.2.3","description":"select * from learn"},"file":{"path":"开发工具/gitbook.md","mtime":"2020-03-13T07:15:59.767Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-13T09:17:18.350Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"gitbook","level":"1.6.2","depth":2,"next":{"title":"服务器","level":"1.7","depth":1,"path":"服务器/README.md","ref":"./服务器/README.md","articles":[{"title":"Linux","level":"1.7.1","depth":2,"path":"服务器/Linux.md","ref":"./服务器/Linux.md","articles":[]},{"title":"Windows","level":"1.7.2","depth":2,"path":"服务器/Windows.md","ref":"./服务器/Windows.md","articles":[]}]},"previous":{"title":"Markdown","level":"1.6.1","depth":2,"path":"开发工具/Markdown.md","ref":"./开发工具/Markdown.md","articles":[]},"dir":"ltr"},"config":{"plugins":["prism","-sharing","sharing-plus","favicon","code","copy-code-button","-back-to-top-button","-toggle-chapters","chapter-fold","favicon-absolute","pageview-count","anchor-navigation-ex"],"styles":{"website":"./static/style/website.css"},"pluginsConfig":{"chapter-fold":{},"prism":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"favicon-absolute":{"appleTouchIconMore":{},"appleTouchIconPrecomposed152":"https://cofire.github.io/book/static/icon/favicon.ico","appleTouchIconPrecomposedMore":{},"favicon":"https://cofire.github.io/book/static/icon/favicon.ico","bookmark":"https://cofire.github.io/book/static/icon/favicon.ico"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":false,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"favicon":{},"pageview-count":{},"copy-code-button":{},"sharing":{"weibo":true,"qq":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"cofire","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"printLog":false,"variables":{},"title":"私人笔记","language":"zh-hans","gitbook":"3.2.3","description":"select * from learn"},"file":{"path":"开发工具/gitbook.md","mtime":"2020-03-13T13:52:38.550Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-13T13:59:26.017Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -1176,11 +1196,7 @@ gitbook builid --debug
         
     
         
-        <script src="../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
         
     
         

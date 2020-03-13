@@ -1,6 +1,4 @@
-# <center>gitbook 入门</center>
-
-# 一、运行环境
+# 运行环境
 
 ## nodejs
 
@@ -26,7 +24,7 @@ npm install -g gitbook-cli
 
  GitBook + Typora + Git
 
-# 二、gitbook使用
+# gitbook使用
 
 ## 初始化
 
@@ -103,7 +101,7 @@ gitbook build --log=debug
 gitbook builid --debug
 ```
 
-# 三、插件配置
+# 插件配置
 
 ## book.json 配置
 
@@ -425,3 +423,22 @@ var fontSize = bookHeader.find('.font-settings');
     }
 }
 ```
+
+* ####  hide-element（隐藏元素）
+
+```json
+{
+    "plugins": [
+        "hide-element"
+    ],
+    "pluginsConfig": {
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        }
+    }
+}
+```
+
+* #### chapter-fold（导航目录折叠）
+
+* #### popup （弹出大图）
