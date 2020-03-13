@@ -21,7 +21,8 @@
         "back-to-top-button",
         "toggle-chapters",
         "multipart",
-        "favicon-absolute"
+        "favicon-absolute",
+        "pageview-count"
     ],
     "pluginsConfig": {
         "github": {
