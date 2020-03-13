@@ -20,7 +20,8 @@
         "copy-code-button",
         "back-to-top-button",
         "toggle-chapters",
-        "multipart"
+        "multipart",
+        "favicon-absolute"
     ],
     "pluginsConfig": {
         "github": {
@@ -46,15 +47,10 @@
                 "whatsapp"
             ]
         },
-        "favicon": {
+        "favicon-absolute": {
             "favicon": "/static/icon/favicon.ico",
-            "shortcut": "/static/icon/favicon.ico",
             "bookmark": "/static/icon/favicon.ico",
-            "appleTouch": "/static/icon/favicon.ico",
-            "appleTouchMore": {
-                "120x120": "/static/icon/favicon.ico",
-                "180x180": "/static/icon/favicon.ico"
-            }
+            "appleTouchIconPrecomposed152": "/static/icon/favicon.ico"
         },
         "theme-default": {
             "showLevel": true

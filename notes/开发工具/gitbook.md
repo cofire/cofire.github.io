@@ -1,4 +1,4 @@
-# gitbook 入门
+# <center>gitbook 入门</center>
 
 # 一、运行环境
 
@@ -385,3 +385,43 @@ var fontSize = bookHeader.find('.font-settings');
 }
 ~~~
 
+* #### favicon-absolute （设置网站图标）
+
+```json
+{
+    "plugins": ["favicon-absolute"],
+    "pluginsConfig": {
+        "favicon-absolute":{
+            "favicon": "/favicon.ico",
+            "appleTouchIconPrecomposed152": "/apple-touch-icon-precomposed-152.png"
+        }
+    }
+}
+```
+
+```json
+{
+    "title": "favicon-absolute 插件官方文档",
+    "author": "snowdreams1006",
+    "description": "gitbook-plugin-favicon-absolute 插件官方文档",
+    "plugins": [
+        "favicon-absolute"
+    ],
+    "pluginsConfig": {
+        "favicon-absolute":{
+            "favicon": "/favicon.ico",
+            "bookmark": "/bookmark.ico",
+            "appleTouchIcon152": "/apple-touch-icon-152.png",
+            "appleTouchIconPrecomposed152": "/apple-touch-icon-precomposed-152.png",
+            "appleTouchIconMore": {
+                "120x120": "/apple-touch-icon-120.png",
+                "180x180": "/apple-touch-icon-180.png"
+            },
+            "appleTouchIconPrecomposedMore": {
+                "120x120": "/apple-touch-icon-precomposed-120.png",
+                "180x180": "/apple-touch-icon-precomposed-180.png"
+            }
+        }
+    }
+}
+```
