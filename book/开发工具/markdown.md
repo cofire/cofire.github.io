@@ -1,4 +1,4 @@
-# Markdown语法入门
+# <center>Markdown语法入门</center>
 
 # 一、标题
 
