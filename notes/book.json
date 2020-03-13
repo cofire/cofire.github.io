@@ -1,5 +1,5 @@
 {
-    "title": "cofire's Glory",
+    "title": "私人笔记",
     "author": "cofire",
     "description": "select * from learn",
     "language": "zh-hans",
@@ -47,12 +47,13 @@
             ]
         },
         "favicon": {
-            "shortcut": "./static/icon/favicon.ico",
-            "bookmark": "./static/icon/favicon.ico",
-            "appleTouch": "./static/icon/favicon.ico",
+            "favicon": "/static/icon/favicon.ico",
+            "shortcut": "/static/icon/favicon.ico",
+            "bookmark": "/static/icon/favicon.ico",
+            "appleTouch": "/static/icon/favicon.ico",
             "appleTouchMore": {
-                "120x120": "./static/icon/favicon.ico",
-                "180x180": "./static/icon/favicon.ico"
+                "120x120": "/static/icon/favicon.ico",
+                "180x180": "/static/icon/favicon.ico"
             }
         },
         "theme-default": {
