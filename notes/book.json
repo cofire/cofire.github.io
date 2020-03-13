@@ -4,11 +4,12 @@
     "description": "select * from learn",
     "language": "zh-hans",
     "gitbook": "3.2.3",
-    "printLog": false,
-    "styles": {
+    "styles":
+    {
         "website": "./static/style/website.css"
     },
-    "structure": {
+    "structure":
+    {
         "readme": "README.md"
     },
     "plugins": [
@@ -25,22 +26,31 @@
         "pageview-count",
         "anchor-navigation-ex"
     ],
-    "pluginsConfig": {
-        "anchor-navigation-ex": {
+    "pluginsConfig":
+    {
+        "anchor-navigation-ex":
+        {
             "showLevel": true,
             "associatedWithSummary": false,
             "printLog": false
         },
-        "sharing": {
+        "code":
+        {
+            "printLog": false
+        },
+        "sharing":
+        {
             "weibo": true,
             "qq": true
         },
-        "favicon-absolute": {
+        "favicon-absolute":
+        {
             "favicon": "https://cofire.github.io/book/static/icon/favicon.ico",
             "bookmark": "https://cofire.github.io/book/static/icon/favicon.ico",
             "appleTouchIconPrecomposed152": "https://cofire.github.io/book/static/icon/favicon.ico"
         },
-        "theme-default": {
+        "theme-default":
+        {
             "showLevel": true
         }
     }
