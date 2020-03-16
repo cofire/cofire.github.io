@@ -173,6 +173,8 @@ book.json常用配置如下：
 
 ## 常用插件
 
+PS：插件查找地址https://www.npmjs.com/
+
 * #### back-to-top-button（返回顶部）
 
 * #### code（代码添加行号&复制按钮）

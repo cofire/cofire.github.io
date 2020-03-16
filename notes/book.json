@@ -19,11 +19,10 @@
         "favicon",
         "code",
         "copy-code-button",
-        "-back-to-top-button",
-        "-toggle-chapters",
         "chapter-fold",
         "favicon-absolute",
         "pageview-count",
+        "image-captions",
         "anchor-navigation-ex"
     ],
     "pluginsConfig":
@@ -32,10 +31,6 @@
         {
             "showLevel": true,
             "associatedWithSummary": false,
-            "printLog": false
-        },
-        "code":
-        {
             "printLog": false
         },
         "sharing":
@@ -52,6 +47,9 @@
         "theme-default":
         {
             "showLevel": true
+        },
+        "image-captions": {
+          "caption": "_CAPTION_"
         }
     }
 }
