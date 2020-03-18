@@ -444,3 +444,17 @@ var fontSize = bookHeader.find('.font-settings');
 * #### chapter-fold（导航目录折叠）
 
 * #### popup （弹出大图）
+
+# FAQ
+
+1. *Q*：`gitbook serve`报错:`Error: ENOENT: no such file or directory, stat C:\Users\Lenovo\www\mdspg\md\mybook_book\gitbook\gitbook-plugin-fontsettings\fontsettings.js`
+
+   *A*：用户目录下找到以下文件。
+   `gitbook\versions\3.2.3\lib\output\website\copyPluginAssets.js`
+
+   ```
+   所有
+   confirm: true
+   替换成
+   confirm: false
+   ```
