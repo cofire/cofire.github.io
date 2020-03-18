@@ -23,7 +23,8 @@
         "favicon-absolute",
         "pageview-count",
         "image-captions",
-        "anchor-navigation-ex"
+        "anchor-navigation-ex",
+        "auto-scroll-table"
     ],
     "pluginsConfig":
     {

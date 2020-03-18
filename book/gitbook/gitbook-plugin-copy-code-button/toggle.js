@@ -55,7 +55,7 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
     $("pre").each(function(){
       $(this).css("position", "relative");
 
-      var $copyCodeButton = $("<button class='copy-code-button'>复制</button>");
+      var $copyCodeButton = $("<button class='copy-code-button'>Copy</button>");
       $copyCodeButton.css({"position": "absolute", "top": "5px", "right": "5px", "padding": "3px", "background-color":"#313E4E", "color":"white", "border-radius": "5px" , "-moz-border-radius": "5px", "-webkit-border-radius": "5px", "border": "2px solid #CCCCCC"});
       $copyCodeButton.click(function(){
         var $codeContainer = $(this).siblings("code");
@@ -65,17 +65,17 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
 
           var buttonNewText = "";
           if(copyToClipboard(selectedText) == true){
-            buttonNewText = "已复制";
+            buttonNewText = "Copied";
             selectElementText($codeContainer.get(0));
           } else {
-            buttonNewText = "禁止复制";
+            buttonNewText = "Unable to copy";
             selectElementText($codeContainer.get(0));
           }
 
           $(this).text(buttonNewText);
           var that = this;
           setTimeout(function(){
-              $(that).text("复制");
+              $(that).text("Copy");
           }, 2000);
         }
       });
